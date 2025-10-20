@@ -92,3 +92,178 @@ header nav span a {
   font-size: 14px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.main-content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  gap: 1rem;
+}
+
+.banner-left {
+  position: relative;
+}
+
+.banner-left img {
+  border-radius: 0.8rem;
+}
+
+.banner-left-text {
+  position: absolute;
+  top: 4rem;
+  left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.banner-left-text h2 {
+  color: white;
+  font-family: 'Quattrocento';
+  font-weight: 700;
+  font-size: 5rem;
+  max-width: 20rem;
+  line-height: 5rem;
+}
+
+.banner-left-text p {
+  color: white;
+  font-family: 'Barlow';
+  font-size: 1.3rem;
+}
+
+.banner-left-text .btn {
+  font-family: 'Barlow';
+  color: #CE2829;
+  background-color: white;
+  padding: 0.7rem 1.7rem;
+  border-radius: 50px;
+  border: none;
+  width: 9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+
+.banner-left-text .btn:hover {
+  color: white;
+  background-color: #CE2829;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.banner-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
+.banner-topright {
+  position: relative;
+}
+
+.banner-topright img {
+  border-radius: 0.8rem;
+}
+
+.banner-topright-text {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.banner-topright-text h2 {
+  color: white;
+  font-family: 'Barlow';
+  font-size: 2.5rem;
+  font-weight: 500;
+  max-width: 15rem;
+}
+
+.banner-topright-text .btn {
+  font-family: 'Barlow';
+  color: #CE2829;
+  background-color: white;
+  padding: 0.7rem 1.7rem;
+  border-radius: 50px;
+  border: none;
+  width: 9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 1.2rem;
+  transition: 0.3s;
+}
+
+.banner-topright-text .btn:hover {
+  color: white;
+  background-color: #CE2829;
+  cursor: pointer;
+}
+
+.banner-bottomright {
+  position: relative;
+}
+
+.banner-bottomright img {
+  border-radius: 0.8rem;
+}
+
+.banner-bottomright-text {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.banner-bottomright-text span {
+  color: #CE2829;
+}
+
+.banner-bottomright-text h2{
+  color: #292929; 
+  font-family: 'Barlow';
+  font-size: 2.5rem;
+  font-weight: 500;
+  max-width: 18rem;
+}
+
+.banner-bottomright-text .btn {
+  font-family: 'Barlow';
+  color: #CE2829;
+  background-color: white;
+  padding: 0.7rem 1.7rem;
+  border-radius: 50px;
+  border: none;
+  width: 9rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  transition: 0.3s;
+}
+
+.banner-bottomright-text .btn:hover {
+  color: white;
+  background-color: #CE2829;
+  cursor: pointer;
+}
+
+
+
+
+
+
