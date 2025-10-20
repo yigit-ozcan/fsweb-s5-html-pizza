@@ -4,8 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Quattrocento:wght@400;700&family=Roboto+Condensed:wght@200;300;400;700&family=Satisfy&family=Londrina+Solid&display=swap" rel="stylesheet">
     <title>Workintech + 🍕</title>
   </head>
 
@@ -13,34 +15,38 @@
     <header>
       <div class="header-img">
         <h1>Teknolojik Yemekler</h1>
-        <p id="text-handwritten">fırsatı kaçırma</p>
-        <p id="text-top">KOD ACIKTIRIR</p>
-        <p id="text-bottom">PIZZA, DOYURUR</p>
+        <div class="header-text">
+          <p id="header-handwritten-text">fırsatı kaçırma</p>
+          <p>KOD ACIKTIRIR</p>
+          <p>PIZZA, DOYURUR</p>
+        </div> 
         <button class="btn">ACIKTIM</button>
       </div>
       <nav>
-        <a href="#">YENİ! Kore</a>
-        <a href="#">Pizza</a>
-        <a href="#">Burger</a>
-        <a href="#">Kızartmalar</a>
-        <a href="#">Fast food</a>
-        <a href="#">Gazlı İçecek</a>
+        <span><img src="assets/iteration-2/icons/1.svg" alt=""><a href="#">YENİ! Kore</a></span>
+        <span><img src="assets/iteration-2/icons/2.svg" alt=""><a href="#">Pizza</a></span>
+        <span><img src="assets/iteration-2/icons/3.svg" alt=""><a href="#">Burger</a></span>
+        <span><img src="assets/iteration-2/icons/4.svg" alt=""><a href="#">Kızartmalar</a></span>
+        <span><img src="assets/iteration-2/icons/5.svg" alt=""><a href="#">Fast food</a></span>
+        <span><img src="assets/iteration-2/icons/6.svg" alt=""><a href="#">Gazlı İçecek</a></span>
       </nav>
     </header>
     <main>
       <div class="main-content-top">
-        <div class="banners-left">
+        <div class="banner-left">
           <h2>Özel Lezzetus</h2>
           <p>Position: Absolute Acı Burger</p>
           <button class="btn">SİPARİŞ VER</button>
         </div>
-        <div class="banners-topright">
-          <h2>Hackathlon Burger Menü</h2>
-          <button class="btn">SİPARİŞ VER</button>
-        </div>
-        <div class="banners-bottomright">
-          <h2>Çoooook hızlı npm gibi kurye</h2>
-          <button class="btn">SİPARİŞ VER</button>
+        <div class="banner-right">
+          <div class="banners-topright">
+            <h2>Hackathlon Burger Menü</h2>
+            <button class="btn">SİPARİŞ VER</button>
+          </div>
+          <div class="banners-bottomright">
+            <h2>Çoooook hızlı npm gibi kurye</h2>
+            <button class="btn">SİPARİŞ VER</button>
+          </div>
         </div>
       </div>
       <div class="main-content-bottom">
@@ -83,12 +89,18 @@
       <div class="footer-top">
         <div class="footer-left">
           <h2>Teknolojik Yemekler</h2>
-          <p>ADRES ISARETI</p>
-          <p>341 Londonderry Road, <br> Istanbul Türkiye</p>
-          <p>EMAIL ISARETI</p>
-          <p>aciktim@teknolojikyemekler.com</p>
-          <p>TELEFON ISARETI</p>
-          <p>+90 216 123 45 67</p>
+          <div class="footer-address">
+            <img src="assets/iteration-2/footer/icons/icon-1.png" alt="">
+            <p>341 Londonderry Road, <br> Istanbul Türkiye</p>
+          </div>
+          <div class="footer-mail">
+            <img src="assets/iteration-2/footer/icons/icon-2.png" alt="">
+            <p>aciktim@teknolojikyemekler.com</p>
+          </div>
+          <div class="footer-tel">
+            <img src="assets/iteration-2/footer/icons/icon-3.png" alt="">
+            <p>+90 216 123 45 67</p>
+          </div>
         </div>
         <div class="footer-middle">
           <h3>Hot Menu</h3>
@@ -117,5 +129,4 @@
       </div>
     </footer>
   </body>
-
 </html>
