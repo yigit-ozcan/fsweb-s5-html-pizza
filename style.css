@@ -125,6 +125,13 @@ main {
 
 .banner-left {
   position: relative;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.banner-left:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  filter: brightness(0.92);
 }
 
 .banner-left img {
@@ -186,6 +193,13 @@ main {
 
 .banner-topright {
   position: relative;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.banner-topright:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  filter: brightness(0.92);
 }
 
 .banner-topright img {
@@ -231,6 +245,13 @@ main {
 
 .banner-bottomright {
   position: relative;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.banner-bottomright:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  filter: brightness(0.92);
 }
 
 .banner-bottomright img {
@@ -351,6 +372,13 @@ main {
   background-color: white;
   padding: 2rem 3rem;
   border-radius: 12px;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.main-content-bottom-content article:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  filter: brightness(0.92);
 }
 
 article h4 {
@@ -705,10 +733,10 @@ footer {
   }
 
   .footer-bottom {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
-    gap: 1rem;
+    gap: 7rem;
     margin: 1rem auto;
   }
 
