@@ -96,7 +96,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 5rem;
+  max-width: 1200px;
+  margin: 5rem auto;
 }
 
 .main-content-top {
@@ -262,8 +263,99 @@ main {
   cursor: pointer;
 }
 
+.main-content-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 4rem;
+}
 
+.main-content-bottom-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  text-align: center;
+}
 
+.main-content-bottom-text p {
+  font-family: 'Satisfy';
+  color: #CE2829;
+  font-weight: 400;
+  font-size: 2.2rem;
+}
 
+.main-content-bottom-text h3 {
+  font-family: 'Barlow';
+  color: #292929;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
 
+.main-content-bottom nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  max-width: 1200px;
+}
+
+.main-content-bottom nav span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #292929;
+  background-color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.main-content-bottom nav span:hover {
+  background-color: #292929;
+  color: white;
+}
+
+.main-content-bottom nav span a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-family: 'Barlow';
+  width: 8rem;
+}
+
+.main-content-bottom-content {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.main-content-bottom-content article {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+}
+
+article h4 {
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+article .article-text {
+  font-family: 'Barlow';
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #292929;
+}
+
+.article-text .fiyat {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
 
