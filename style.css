@@ -65,6 +65,12 @@ header .header-img {
   font-weight: bold;
   color: #292929;
   font-family: 'Barlow';
+  transition: 0.3s;
+}
+
+.header-img .btn:hover {
+  background-color: #af8c0b;
+  cursor: pointer;
 }
 
 header nav {
@@ -74,7 +80,7 @@ header nav {
   display: flex;
   justify-content: center;   
   align-items: center;
-  gap: 3rem;                  
+  gap: 2rem;                  
   margin: 0; 
 }
 
@@ -82,11 +88,20 @@ header nav span {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+header nav span:hover {
+  background-color: #292929;
+  color: white;
+  cursor: pointer;
 }
 
 header nav span a {
   text-decoration: none;
-  color: #292929;
+  color: inherit;
   font-family: 'Barlow';
   font-weight: 500;
   font-size: 14px;
@@ -152,7 +167,7 @@ main {
   font-weight: 600;
   font-size: 0.8rem;
   transition: 0.3s;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .banner-left-text .btn:hover {
@@ -204,7 +219,7 @@ main {
   width: 9rem;
   font-weight: 600;
   font-size: 0.8rem;
-  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
   transition: 0.3s;
 }
 
@@ -253,7 +268,7 @@ main {
   width: 9rem;
   font-weight: 600;
   font-size: 0.8rem;
-  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
   transition: 0.3s;
 }
 
@@ -359,3 +374,333 @@ article .article-text {
   font-size: 1.2rem;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color:#292929;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9rem;
+  margin-top: 2rem;
+  align-items: center;
+  align-content: center;
+  border-bottom: 2px solid rgb(75, 74, 74);
+  padding-bottom: 3rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer-left h2 {
+  font-family: 'Londrina Solid';
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+  width: 15rem;
+  line-height: 3rem;
+  margin-bottom: 2.2rem;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-address img {
+  width: 2.2rem;
+}
+
+.footer-address p {
+  font-family: 'Barlow';
+  font-size: 400;
+  font-size: 1.2rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-address p:hover {
+  color: #c5c5c5;
+  cursor: pointer;
+}
+
+.footer-mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-mail img {
+  width: 2.2rem;
+}
+
+.footer-mail p {
+  font-family: 'Barlow';
+  font-size: 400;
+  font-size: 1.2rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-mail p:hover {
+  color: #c5c5c5;
+  cursor: pointer;
+}
+
+.footer-tel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-tel img {
+  width: 2.2rem;
+}
+
+.footer-tel p{
+  font-family: 'Barlow';
+  font-size: 400;
+  font-size: 1.2rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-tel p:hover {
+  color: #c5c5c5;
+  cursor: pointer;
+}
+
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  margin-top: 4rem;
+}
+
+.footer-middle h3 {
+  color: white;
+  font-family: 'Barlow';
+  font-size: 500;
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.footer-middle p {
+  font-family: 'Barlow';
+  font-size: 400;
+  font-size: 1.2rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer-middle p:hover {
+  cursor: pointer;
+  color: #c5c5c5;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+
+.footer-right h3 {
+  color: white;
+  font-family: 'Barlow';
+  font-size: 500;
+  font-size: 1.7rem;
+}
+
+.footer-right .footer-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-images-top {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  border-radius: 3px;
+}
+
+.footer-images-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+  border-radius: 3px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 2rem 22.6rem;
+}
+
+.footer-bottom p {
+  color: white;
+  font-weight: 400;
+  font-family: 'Barlow';
+}
+
+.footer-bottom i {
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-color: #FAF7F2;
+  }
+
+  /* HEADER */
+  header {
+    min-height: 100vh;
+  }
+
+  .header-img {
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Dikey ortalama */
+    align-items: center; /* Yatay ortalama */
+    text-align: center;
+  }
+
+  .header-img h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  .header-text p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .header-img .btn {
+    margin-top: 2rem;
+    padding: 0.9rem 2.2rem;
+    font-size: 1rem;
+    border-radius: 30px;
+  }
+
+  /* HEADER NAV */
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 1rem;
+  }
+
+  header nav span {
+    display: block;
+    padding: 0.8rem 1.2rem;
+  }
+
+  /* MAIN CONTENT */
+  
+  .main-content-top {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .banner-left,
+  .banner-topright,
+  .banner-bottomright {
+    width: 90%;
+  }
+
+  .banner-left-text,
+  .banner-topright-text,
+  .banner-bottomright-text {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .banner-left-text h2,
+  .banner-topright-text h2,
+  .banner-bottomright-text h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  /* MAIN CONTENT BOTTOM */
+  .main-content-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .main-content-bottom nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem auto;
+  }
+
+  .main-content-bottom nav span {
+    width: 45%;
+  }
+
+  .main-content-bottom-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .product-card {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .product-card img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* FOOTER */
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    padding: 2rem 1rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    margin: 1rem auto;
+  }
+
+  /* FONTS OPTIMIZATION */
+  h2, h3 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
